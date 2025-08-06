@@ -141,7 +141,7 @@ class ValueSimilarityAgent(Agent):
                     f"Expected API Response:\n{expected_response}\n"
                     f"Remarks: {remarks}\n\n"
                     f"Analyze the responses based on the remarks. "
-                    f"If the remarks menMtion specific fields, compare the values of those fields only. "
+                    f"If the remarks mention specific fields, compare the values of those fields only. "
                     f"If there are no specific remarks,do not provide a general comparison.\n"
                     f"Provide your answer as:\n"
                     f"- 'True' if the responses are similar based on the remarks\n"
